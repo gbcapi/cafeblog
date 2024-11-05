@@ -1,0 +1,87 @@
+/* *{
+    
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+body{
+    padding: 0px 200px;
+}
+#nav{
+    display: flex;
+    background-color: rgb(152, 123, 93);
+    height: 50px;
+    padding: 0px 100px;
+}
+ 
+#logo{
+    display: flex;
+}
+#nav > #titulo{
+    display: flex;
+    align-items: center;
+    
+}
+#logo > img {
+    display: flex;
+}
+#titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#titulo > h1{
+    color: white;
+    font-size: 20px;
+    
+}
+.menu-list{
+    background-color: wheat;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    padding: 0px 100px;
+}
+.menu-list > li{
+    padding: 5px 10px;
+}
+.menu-list > li > a {
+    text-decoration-line: none;
+    color:brown;
+    font-weight: 500;
+}
+#corpo{
+    display: flex;
+    justify-content: center;
+    background-color: #e8e6e6;
+    height: 1000px;
+    padding: 20px 150px;
+}
+#cont{
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 10px 0px;
+}
+#img > img{
+    height: 500px;
+    border-radius: 20px;
+}
+
+h2{
+    padding: 45px 0px 20px 0px;
+    font-size: 30px;
+}
+#rodape{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    padding: 20px 150px;
+}
+#text{
+    padding: 20px
+} */
