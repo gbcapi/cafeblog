@@ -16,11 +16,7 @@ main{
     font-size: 2.4rem;
     margin-top: 2.5rem;
 }
-/* .conteudo .banner{
-    border-radius: 1.5rem;
-    overflow: hidden;
-    width: 80%;
-} */
+
 .conteudo img{
     border-radius: 1.5rem;
     width: 100rem;
@@ -30,12 +26,23 @@ main{
     font-size: 1.6rem;
     padding: 1.5rem;
 }
-/* .conteudo .banner{
-    width: 80%;
-    height: 45rem;
-    background-image: url(./arquivosAuxiliares/imagens/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    border-radius: 1.5rem;
-} */
+
+
+/*=================Responsividade 400px=================*/
+
+@media (max-width: 400px) {
+    
+    main{
+        width: 100%;
+    }
+
+    .conteudo {
+        margin: 2rem 2rem;
+    }
+
+    .conteudo img{
+        width: 90%;
+        height: 50%;
+    }
+
+}
