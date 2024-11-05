@@ -1,0 +1,33 @@
+header{
+    width: 80%;
+    
+}
+header img{
+    height: 5rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+    background-color: var(--marrom);
+    padding-left: 5rem; 
+}
+header h1{
+    color: var(--claro);
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+}
+header nav{
+    background-color: var(--terra);
+    height: 5rem;
+    padding-left: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+nav > a {
+    color: var(--marrom_red);
+    font-size: 1.6rem;
+}
