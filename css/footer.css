@@ -12,3 +12,30 @@
     }
 
 }
+
+/*=================Responsividade 1400px=================*/
+
+@media (max-width: 1400px) { 
+    .footer {
+        width: 80%;
+    }
+
+}
+
+/*=================Responsividade 1024px=================*/
+
+@media (max-width: 1024px) { 
+    .footer {
+        width: 80%;
+    }
+
+}
+
+/*=================Responsividade 450px=================*/
+
+@media (max-width: 450px) { 
+    .footer {
+        width: 100%;
+    }
+
+}
